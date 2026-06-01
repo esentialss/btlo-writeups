@@ -14,4 +14,5 @@
 
 **Who is the primary recipient of this email?**
 First we have to download Phishing Email file, next open in outlook for html view and in text editor for Head, Body, etc. view.
+
 <img width="459" height="89" alt="image" src="https://github.com/user-attachments/assets/bfe98483-86b7-481d-9b62-2686d63ca981" />
