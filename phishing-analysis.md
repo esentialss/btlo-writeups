@@ -63,7 +63,7 @@ In outlook on top of the email we can see that name of attached file is Website 
 
 **What is the URL found inside the attachment?**
 
-I opened the attached file and found that URL is https://35000usdperwwekpodf.blogspot.sg?p=9swghttps://35000usdperwwekpodf.blogspot.co.il?o=0hnd
+I opened the preview of the attached file and found that URL is https://35000usdperwwekpodf.blogspot.sg?p=9swghttps://35000usdperwwekpodf.blogspot.co.il?o=0hnd
 
 <img width="554" height="230" alt="{0C8FF45F-AC2E-40E6-A050-C5923AA8D6E2}" src="https://github.com/user-attachments/assets/2b97d623-8ce8-4fc6-988c-dec83fcca31c" />
 
