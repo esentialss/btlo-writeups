@@ -69,8 +69,16 @@ I opened the attached file and found that URL is https://35000usdperwwekpodf.blo
 
 **What service is this webpage hosted on?**
 
-If we analize the url we can see that service hosted on this webpage is blogspot
+By analyzing the URL we can see that the hosting service is Blogspot
 
 **Using URL2PNG, what is the heading text on this page? (Doesn't matter if the page has been taken down!)**
 
 In URL2PNG site I pasted the url and found the heading text: Blog has been removed
+
+## Lessons Learned
+- Always check email headers in a text editor, 
+  not only in email client like Outlook
+- X-Originating-IP header reveals the real 
+  sender's IP address
+- Reverse DNS helps identify suspicious hosting
+- Always analyze URLs without clicking them
