@@ -18,6 +18,8 @@ First we have to download Phishing Email file, next open in outlook for html vie
 
 <img width="459" height="89" alt="image" src="https://github.com/user-attachments/assets/bfe98483-86b7-481d-9b62-2686d63ca981" />
 
-Email was sent to kinnar1975@yahoo.co.uk so he is the primary recipient.
+I opened email in outlook and i saw the email was sent to kinnar1975@yahoo.co.uk so kinnar1975@yahoo.co.uk is the primary recipient.
 
 **What is the subject of this email?**
+
+Subject of email: Undeliverable: Website contact form submission
