@@ -75,6 +75,16 @@ By analyzing the URL we can see that the hosting service is Blogspot
 
 In URL2PNG site I pasted the url and found the heading text: Blog has been removed
 
+# Lessons
+- Always analyze the URL and its authenticity 
+  before clicking it
+- Always check email headers in a text editor, 
+  not only in an email client because email clients 
+  can hide useful information from you
+- X-Originating-IP header reveals the real 
+  sender's IP address
+- By reversing DNS we can identify suspicious hosting
+
 # Challenge Completed
 
 <img width="795" height="613" alt="{E026F7D4-E20F-40F0-A138-BB8804965882}" src="https://github.com/user-attachments/assets/fddf167b-854a-41f2-84db-3e368952d7fc" />
