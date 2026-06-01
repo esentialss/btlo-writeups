@@ -22,4 +22,5 @@ I opened email in outlook and i saw the email was sent to kinnar1975@yahoo.co.uk
 
 **What is the subject of this email?**
 
-Subject of email: Undeliverable: Website contact form submission
+I found the subject in the "Subject:" header field of the email.
+Subject: Undeliverable: Website contact form submission
