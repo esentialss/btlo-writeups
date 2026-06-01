@@ -1,6 +1,6 @@
 # Phishing Analysis
 
-**Platform:** <a href="https://blueteamlabs.online/">go back to index.html</a>
+**Platform:** <a href="https://blueteamlabs.online/">Blue Team Labs Online</a>
 
 **Difficulty:** Easy
 
