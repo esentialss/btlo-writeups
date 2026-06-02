@@ -81,13 +81,13 @@ The answer is This web page could not be loaded.
 
 **When looking at the main body content in a text editor, what encoding scheme is being used?**
 
-I opened the text editor, again I used CTRL+F, for faster searching, in the search bar I typed encoding and found encoding scheme.
+I opened the text editor, again I used CTRL+F, for faster searching, in the search bar I typed encoding and found that the encoding scheme is base64.
 
 <img width="354" height="82" alt="{35A12AAD-239C-4D83-B9CA-9B578BE1D9B6}" src="https://github.com/user-attachments/assets/89d9c539-02b5-4af7-8374-8235ff20f928" />
 
 **What is the URL used to retrieve the company's logo in the email?**
 
-In outlook I right clicked in the company logo and copied the photo URL
+In outlook I right clicked in the company logo and copied the photo URL https://images.squarespace-cdn.com/content/52e2b6d3e4b06446e8bf13ed/1500584238342-OX2L298XVSKF8AO6I3SV/amazon-logo?format=750w&content-type=image%2Fpng
 
 <img width="407" height="244" alt="{3315BE64-D204-4FBE-90BF-355FE6903469}" src="https://github.com/user-attachments/assets/d52decf4-eb20-4eb7-a123-13d7690c792f" />
 
@@ -101,6 +101,10 @@ I found the Facebook URL containing username amir.boyka.7, however the accepted 
 
 # Lessons
 
+- If you can't see a preview of the site in URL2PNG, 
+  you can use Web Archive (web.archive.org)
+- Carefully checking URLs can reveal information 
+  that the attacker didn't intend to reveal
 
 # Challenge Completed
 
