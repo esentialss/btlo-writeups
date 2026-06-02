@@ -51,7 +51,7 @@ Name of the company which attacker is trying to imitate is Amazon
 
 If we open a Phishing Email in text editor we can see more detailed information.
 
-First thing i did after opening text editor I used CTRL+F and typed "Date" so I could find the date faster.
+First thing I did after opening text editor I used CTRL+F and typed "Date" so I could find the date faster.
 
 <img width="489" height="128" alt="{DAF468B2-ED65-43FA-9929-2B27FB148E34}" src="https://github.com/user-attachments/assets/697fdb53-f8b2-47d0-a958-4b893e04aed9" />
 
@@ -71,9 +71,9 @@ I pasted the URL in URL2PNG site and saw only Bad Request because I pasted full 
 
 <img width="77" height="25" alt="{CB52EF13-F9C3-4121-992D-E3A602B3805F}" src="https://github.com/user-attachments/assets/62e41dd3-b3ab-4ddf-9da0-18cb4b4ebfda" />
 
-So I pasted and this also didn't work, so I debugged the URL on this site https://www.urldecoder.org/ and tried again but again it didn't worked.
+So I pasted and this also didn't work, so I debugged the URL on this site https://www.urldecoder.org/ and tried again but again it didn't work.
 
-Next I tried see the page on web.archive.org I pasted the full URL and it worked.
+Next I tried to see the page on web.archive.org I pasted the full URL and it worked.
 
 <img width="1886" height="523" alt="{6C664000-68D8-4D42-8F81-DB28FBA2A548}" src="https://github.com/user-attachments/assets/fb369cee-df68-4b8a-84a3-43df7ea7bc3c" />
 
@@ -93,7 +93,7 @@ In outlook I right clicked in the company logo and copied the photo URL
 
 **For some unknown reason one of the URLs contains a Facebook profile URL. What is the username (not necessarily the display name) of this account, based on the URL?**
 
-First URL I checked was the sent URL and thought that the zzyuchengzhika text in the URL is the answer but not, so next url I checked was in the Amazon Support Team text and if I pointed on this I could see the URL
+First URL I checked was the sent URL and thought that the zzyuchengzhika text in the URL is the answer but not, so next URL I checked was in the Amazon Support Team text and when I hovered over it I could see the URL
 
 <img width="144" height="22" alt="{85D8302A-B7C0-4849-B99E-EBFB6D558AED}" src="https://github.com/user-attachments/assets/511a58e2-ca6f-47d3-ba7f-291e03afeb23" />
 
