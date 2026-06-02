@@ -105,6 +105,13 @@ I found the Facebook URL containing username amir.boyka.7, however the accepted 
   you can use Web Archive (web.archive.org)
 - Carefully checking URLs can reveal information 
   that the attacker didn't intend to reveal
+- Microsoft SafeLinks is a function in Outlook 
+  that wraps URLs, if the URL is malicious it 
+  blocks and warns the user, if it's safe it 
+  redirects the user to the original site
+- When analyzing phishing emails from Outlook, 
+  the real URL is hidden inside SafeLinks and 
+  must be extracted before analysis
 
 # Challenge Completed
 
