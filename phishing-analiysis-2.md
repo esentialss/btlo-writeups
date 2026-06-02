@@ -25,8 +25,82 @@ We can see that email was sent from amazon@zyevantoby.cn address.
 
 **What is the recipient email address?**
 
-If we click the name field where is recipient username we can notice email of the recipient
-
-<img width="288" height="73" alt="{37446667-5630-47A8-B3EF-815FE71FF000}" src="https://github.com/user-attachments/assets/e7e26299-de37-4c6d-a179-a434d6d2251a" />
+If we click the name field where is recipient username we can notice email address of the recipient.
 
 <img width="256" height="77" alt="{60767C8A-479D-445A-A2D6-6E903984EDBB}" src="https://github.com/user-attachments/assets/f3d78ac4-c4d4-4bb6-80c7-7584785ceb4c" />
+
+The recipient email address is saintington73@outlook.com
+
+**What is the subject line of the email?**
+
+On left-top of the email we can see the subject.
+
+<img width="230" height="31" alt="{E9A49AFC-1666-49F1-9716-0FD3561B6437}" src="https://github.com/user-attachments/assets/b8c1c4e0-2df6-4566-8b2a-c9ca8f2e217c" />
+
+The subject line of the email is Your Account has been locked
+
+**What company is the attacker trying to imitate?**
+
+That was first thing i noticed.
+
+<img width="193" height="76" alt="{49CC8E60-2116-4707-8E68-C960E4A6FDE8}" src="https://github.com/user-attachments/assets/1cd74ce8-acc9-46ee-94bd-e0d6d8109e32" />
+
+Name of the company which attacker is trying to imitate is Amazon
+
+**What is the date and time the email was sent? (As copied from a text editor)**
+
+If we open a Phishing Email in text editor we can see more detailed information.
+
+First thing i did after opening text editor i used CTRL+F and typed "Date" so i could find the date faster.
+
+<img width="489" height="128" alt="{DAF468B2-ED65-43FA-9929-2B27FB148E34}" src="https://github.com/user-attachments/assets/697fdb53-f8b2-47d0-a958-4b893e04aed9" />
+
+And we have date and time when the email was sent. Wed, 14 Jul 2021 01:40:32 +0900
+
+**What is the URL of the main call-to-action button?**
+
+I pointed on the cta button and right clicked so i could copy the URL.
+
+<img width="585" height="122" alt="{5FD3D1F1-0AB4-4422-ABCB-3FB24137900F}" src="https://github.com/user-attachments/assets/0975468e-db99-4845-8ba3-4411973fb12e" />
+
+**Look at the URL using URL2PNG. What is the first sentence (heading) displayed on this site? (regardless of whether you think the site is malicious or not)**
+
+I pasted the URL in URL2PNG site and saw only Bad Request because i pasted full URL with https://emea01.safelinks.protection.outlook.com/?url= in the beginning and i should paste without it.
+
+<img width="77" height="25" alt="{CB52EF13-F9C3-4121-992D-E3A602B3805F}" src="https://github.com/user-attachments/assets/62e41dd3-b3ab-4ddf-9da0-18cb4b4ebfda" />
+
+So i pasted and this also didn't work, so i debugged the URL on this site https://www.urldecoder.org/ and tried again but again it didn't worked.
+
+Next i tried see the page on web.archive.org i pasted the full URL and it worked.
+
+<img width="1886" height="523" alt="{6C664000-68D8-4D42-8F81-DB28FBA2A548}" src="https://github.com/user-attachments/assets/fb369cee-df68-4b8a-84a3-43df7ea7bc3c" />
+
+The answer is This web page could not be loaded.
+
+**When looking at the main body content in a text editor, what encoding scheme is being used?**
+
+I opened the text editor, again CTRL+F for faster searching in search bar i typed encoding and found encoding scheme.
+
+<img width="354" height="82" alt="{35A12AAD-239C-4D83-B9CA-9B578BE1D9B6}" src="https://github.com/user-attachments/assets/89d9c539-02b5-4af7-8374-8235ff20f928" />
+
+**What is the URL used to retrieve the company's logo in the email?**
+
+In outlook i right clicked in the company logo and copied the photo URL
+
+<img width="407" height="244" alt="{3315BE64-D204-4FBE-90BF-355FE6903469}" src="https://github.com/user-attachments/assets/d52decf4-eb20-4eb7-a123-13d7690c792f" />
+
+**For some unknown reason one of the URLs contains a Facebook profile URL. What is the username (not necessarily the display name) of this account, based on the URL?**
+
+First URL i checked was the sent URL and thought that the zzyuchengzhika text in the URL is the answer but not, so next url i checked was in the Amazon Support Team text and if i pointed on this i could see the URL
+
+<img width="144" height="22" alt="{85D8302A-B7C0-4849-B99E-EBFB6D558AED}" src="https://github.com/user-attachments/assets/511a58e2-ca6f-47d3-ba7f-291e03afeb23" />
+
+And found facebook link, the username was Famir.boyka.7
+
+# Lessons
+
+
+# Challenge Completed
+
+<img width="798" height="614" alt="{B999D701-E876-4724-B50F-4913A98A80EC}" src="https://github.com/user-attachments/assets/874eb30d-008c-4f5d-b101-64d765b64414" />
+
