@@ -10,11 +10,7 @@
 
 **Scenario:** A user has received a phishing email and forwarded it to the SOC. Can you investigate the email and attachment to collect useful artifacts?
 
-**Warning:** The website and phishing kit used in this challenge 
-are REAL. Exercise caution when interacting with 
-the malicious website and do not enter any sensitive 
-information.
-
+**Warning:** All challenges, websites, and artifacts used in this writeup may contain REAL malicious content. Exercise caution when interacting with any URLs, files, or indicators. Never enter sensitive information and always work in a safe environment.
 ## Investigation Process
 
 **Who is the primary recipient of this email?**
