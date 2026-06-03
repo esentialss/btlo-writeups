@@ -10,10 +10,7 @@
 
 **Scenario:** Put your phishing analysis skils to the test by triaging and collecting information about a recent phishing campaign.
 
-**Warning:** The website and phishing kit used in this challenge 
-are REAL. Exercise caution when interacting with 
-the malicious website and do not enter any sensitive 
-information.
+**Warning:** All challenges, websites, and artifacts used in this writeup may contain REAL malicious content. Exercise caution when interacting with any URLs, files, or indicators. Never enter sensitive information and always work in a safe environment.
 
 ## Investigation Process
 
