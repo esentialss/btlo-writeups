@@ -16,7 +16,7 @@
 
 **What is the IP responsible for conducting the port scan activity?**
 
-Open the file, and in wireshark open Statistics menu click Conversations and choose TCP, we can see that 10.251.96.4 is has the most connections.
+Open the file, and in wireshark open Statistics menu click Conversations and choose TCP, we can see that 10.251.96.4 has the most connections.
 
 <img width="489" height="310" alt="image" src="https://github.com/user-attachments/assets/5576067e-0eec-4158-949b-524f5ba65d3a" />
 
@@ -62,7 +62,7 @@ Answer - editprofile.php
 
 **What is the name of the web shell that the attacker uploaded?**
 
-If we analize more the packet we can see name of the uploaded web shell.
+If we analyze more the packet we can see name of the uploaded web shell.
 
 <img width="912" height="332" alt="image" src="https://github.com/user-attachments/assets/4d00a2aa-3220-4307-89ec-4dce8d45d996" />
 
@@ -70,7 +70,7 @@ Answer - dbfunctions.php
 
 **What is the parameter used in the web shell for executing commands?**
 
-If we follow TCP stream we can see more information inluding parameter.
+If we follow TCP stream we can see more information including parameter.
 
 <img width="723" height="223" alt="image" src="https://github.com/user-attachments/assets/abed4f0f-6bcb-4539-a045-29aae8075866" />
 
@@ -78,7 +78,7 @@ Answer - cmd
 
 **What is the first command executed by the attacker?**
 
-If we use filter ip.src==10.251.96.4 searching for cmd we can find that the first command was id also looking into the timestamp
+If we use filter ip.src==10.251.96.4 searching for cmd we can find that the first command was id also based on the timestamp
 
 <img width="1220" height="280" alt="image" src="https://github.com/user-attachments/assets/f2ceda75-2786-4d33-9f74-df28e4fefa22" />
 
@@ -86,7 +86,7 @@ Answer - id
 
 **What is the type of shell connection the attacker obtains through command execution?**
 
-I found packet with python in the name so i followed the TCP Stream and got some informations.
+I found packet with python in the name so I followed the TCP Stream and got some information.
 
 <img width="1236" height="189" alt="image" src="https://github.com/user-attachments/assets/4cfa5073-7249-4b4b-b1c0-148907ae664c" />
 
@@ -94,13 +94,23 @@ Answer - Reverse
 
 **What is the port he uses for the shell connection?**
 
-We can see port here
+We can see the port in the TCP stream
 
 <img width="264" height="34" alt="image" src="https://github.com/user-attachments/assets/7c602efe-5559-43bf-9484-cc3440052308" />
 
 Answer - 4422
 
 # Lessons
+
+- Statistics → Conversations 
+  helps identify port scanning activity using 
+  the TCP filter
+- User-Agent in HTTP packets 
+  reveals the application name and version 
+  used by the attacker
+- TCP SYN scan means the attacker 
+  sends only SYN without completing the handshake 
+  to identify open ports
 
 # Challenge Completed
 
