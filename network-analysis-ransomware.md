@@ -24,7 +24,7 @@ Answer - 32-bit Windows 7 Service Pack 1, build 7601
 
 **What is the full URL from which the ransomware executable was downloaded?**
 
-I used http filter and saw GET method so i checked this and got IP, Port and filename.
+I used the HTTP filter and saw a GET request. I inspected it and found the IP address, port, and filename.
 
 <img width="753" height="196" alt="image" src="https://github.com/user-attachments/assets/966c1b8a-364f-40e4-998a-f4db8022c200" />
 
@@ -37,15 +37,15 @@ safecrypt.exe is the executable file.
 Answer - safecrypt.exe
 
 **What is the MD5 hash of the ransomware?**
-We need to export this object so select Request URI 
+We need to export the object, so select the Request URI.
 
 <img width="365" height="69" alt="image" src="https://github.com/user-attachments/assets/a98697a6-9cdc-44b9-972e-08ea6587a4aa" />
 
-Next File -> Export Objects -> HTTP
+Next, go to File → Export Objects → HTTP.
 
 <img width="737" height="79" alt="image" src="https://github.com/user-attachments/assets/3160f99c-4844-4098-8402-21486cb02848" />
 
-Select and export, next step we do is checking the hash with md5sum in terminal.
+Export the file, then calculate its MD5 hash using the md5sum command in the terminal.
 
 <img width="958" height="32" alt="image" src="https://github.com/user-attachments/assets/3db1da7e-e906-48f4-b2f5-79affcc4036f" />
 
@@ -53,11 +53,41 @@ Answer - 4a1d88603b1007825a9c6b36d1e5de44
 
 **What is the name of the ransomware?**
 
-If we paste hash in VirusTotal we can have a lot of information.
+By submitting the hash to VirusTotal, we can obtain additional information about the malware.
 
+<img width="1832" height="382" alt="image" src="https://github.com/user-attachments/assets/55dc9c83-6123-44b7-adca-e7fa7abfacf9" />
 
+Answer - teslacrypt
 
+**What is the encryption algorithm used by the ransomware, according to the ransom note?**
 
+We can check it here
 
+<img width="426" height="33" alt="image" src="https://github.com/user-attachments/assets/3468da6b-3d43-4668-873a-418b6b52437a" />
 
+Answer - RSA-4096
 
+**What is the domain beginning with ‘d’ that is related to ransomware traffic?**
+
+By filtering DNS traffic, we can identify the related domain.
+
+<img width="250" height="86" alt="image" src="https://github.com/user-attachments/assets/008a6ba2-b959-488e-a2f6-896f726d78fe" />
+
+Answer - dunyamuzelerimuzesi.com
+
+**Decrypt the Tender document and submit the flag**
+
+I downloaded BloodDolly's TeslaDecoder and used it to decrypt the file.
+
+Answer - BTLO-T3nd3r-Fl@g
+
+# Lessons
+
+- Statistics → Capture File Properties reveals operating system details of the captured host.
+- HTTP GET requests can be used to identify downloaded malware and its source URL.
+- File → Export Objects → HTTP allows extracted files to be recovered from network captures.
+- MD5 hashes can be used to identify malware by searching services such as VirusTotal.
+
+# Challenge Completed
+
+<img width="795" height="611" alt="{A9CAFD32-3842-46D3-A4A6-D2DABE86B2F6}" src="https://github.com/user-attachments/assets/7b3402ab-437b-443b-969a-5d2b3dddd193" />
